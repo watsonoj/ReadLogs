@@ -1,0 +1,13 @@
+C:\Projects\c#\mvvm\ReadLogs\ReadLogs\bin\Debug\ReadLogs.exe.config
+C:\Projects\c#\mvvm\ReadLogs\ReadLogs\obj\Debug\ReadLogs.csprojResolveAssemblyReference.cache
+C:\Projects\c#\mvvm\ReadLogs\ReadLogs\obj\Debug\App.g.cs
+C:\Projects\c#\mvvm\ReadLogs\ReadLogs\obj\Debug\ReadLogs_MarkupCompile.cache
+C:\Projects\c#\mvvm\ReadLogs\ReadLogs\obj\Debug\ReadLogs.g.resources
+C:\Projects\c#\mvvm\ReadLogs\ReadLogs\obj\Debug\ReadLogs.Properties.Resources.resources
+C:\Projects\c#\mvvm\ReadLogs\ReadLogs\obj\Debug\ReadLogs.csproj.GenerateResource.Cache
+C:\Projects\c#\mvvm\ReadLogs\ReadLogs\bin\Debug\ReadLogs.exe
+C:\Projects\c#\mvvm\ReadLogs\ReadLogs\bin\Debug\ReadLogs.pdb
+C:\Projects\c#\mvvm\ReadLogs\ReadLogs\obj\Debug\Views\MainWindow.baml
+C:\Projects\c#\mvvm\ReadLogs\ReadLogs\obj\Debug\Views\MainWindow.g.cs
+C:\Projects\c#\mvvm\ReadLogs\ReadLogs\obj\Debug\ReadLogs.exe
+C:\Projects\c#\mvvm\ReadLogs\ReadLogs\obj\Debug\ReadLogs.pdb
