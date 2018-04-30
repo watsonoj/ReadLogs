@@ -12,6 +12,7 @@ namespace ReadLogs.Models
 
         #region Fields
         private string _FileName;
+        private string _UnitNumber;
 
         #endregion
 
@@ -43,6 +44,23 @@ namespace ReadLogs.Models
                 
             }
         }
+
+        public string UnitNumber{
+            get
+            {
+                return _UnitNumber;
+            }
+            set
+            {
+                _UnitNumber = value;
+                NotifyPropertyChanged("UnitNumber");
+
+            }
+        }
+
+        #endregion
+        
+        #region PropertyChangedEventHandler
 
         public event PropertyChangedEventHandler PropertyChanged;
 

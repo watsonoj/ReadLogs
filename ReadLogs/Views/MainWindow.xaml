@@ -1,13 +1,41 @@
 ﻿<Window x:Class="ReadLogs.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
-    <StackPanel Orientation="Horizontal">
-        <Grid Width="509">
-            <TextBox Text="{Binding LogFile.FileName}" HorizontalAlignment="Left" Height="23" Margin="100,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
-            <Label Content="File Name" HorizontalAlignment="Left" Margin="0,41,0,0" VerticalAlignment="Top" Width="100"/>
-            <Button Command="{Binding UpdateCommand}" Content="Get Files" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
-        </Grid>   
-
-    </StackPanel>
+        Title="MainWindow" Height="450.445" Width="1097.867">
+    <Border Padding="1" Margin="0,0,0,0" >
+        <StackPanel Margin="0,0,0,0" >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <!-- COLUMN ONE -->
+                <StackPanel Grid.Column="0">
+                    <TextBlock Text="Read Retry Log" FontWeight="Bold" />
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Text="Unit #:"/>
+                            <TextBlock Text="File Name:" Margin="0,5,0,0"/>
+                            <TextBlock Text="EIGHT" />
+                        </StackPanel>
+                        <StackPanel Grid.Column="1">
+                            <TextBox Text="{Binding Logfile.UnitNumber}" />
+                            <TextBlock Text="{Binding LogFile.FileName}"  />
+                            <TextBlock Text="NINE" />
+                            <Button Command="{Binding UpdateCommand}" Content="Get Files" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" />
+                        </StackPanel>                        
+                    </Grid>
+                </StackPanel>
+                <!-- COLUMN TWO -->
+                <StackPanel Grid.Column="1" >
+                    <TextBlock Text="Log" FontWeight="Bold" />
+                    <TextBox Text="FIVE" Height="380" />
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </Border>
 </Window>
